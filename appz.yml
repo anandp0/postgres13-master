@@ -11,7 +11,7 @@ build:
     image_template: postgres_master-13.3
     
 deploy:
-    context: anand/DEV
+    context: anandp0/DEV
     type: statefulset
     ingress: none
     replicas: 1
